@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+}
+
+#page1{
+    height: 100%;
+    width:100%;
+    background-color: red;
+    background-image:url("https://cdn.stocksnap.io/img-thumbs/280h/mill-mountain_ARAGQYVAYC.jpg");
+    background-size: cover;
+   object-fit: cover;
+   padding-left: 10%;
+   padding-top: 10%;
+   
+
+
+
+}
+#page1 h1{
+    font-size:50px;
+    font-family: sans-serif;
+    color: yellow;
+    line-height: 83%;
+}
+
+#page1 p{
+    font-family:sans-serif ;
+    font-size: 20px;
+    color:white;
+    margin-top: 1%;
+}
+#page1 button{
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-top: 1%;
+    border: none;
+    background-color:yellow;
+    color:black;
+    box-shadow: 10px 10px 20px;
+    
+}
+    
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: #3e8760;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 #container{
+    height:50%;
+    width:70%;
+    background: linear-gradient(#3e9484,#1F4A45);
+    margin-top: -15%;
+    border-radius: 60px;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+    box-shadow:8px 8px 30px black ;
+    font-size: 10px;
+}
+#container .box{
+    height: 100%;
+    width: 25%;
+    color: white;
+    align-items: center;
+    display: flex;
+justify-content: center;
+   flex-direction: column;
+   gap:8px;
+   text-align: center;
+   padding-top: 40px;
+   padding-left: 5px;
+   padding-right: 80px;
+   padding-bottom: 40px;
+}
+.box svg{
+    height: 30%;
+    color: white;
+    
+}

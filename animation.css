@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box ;
+}
+html,body{
+    height:100%;
+    width:100%
+}
+#page{
+    height: 100%;
+    width: 100%;
+  background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page #circle{
+    height: 300px;
+    width: 300px;
+    background:conic-gradient(red,blue,orange,green,pink,lightseagreen,black,brown,yellow,white);
+    border-radius: 50%;
+    animation: spinner 2s linear 1s infinite forwards;
+}
+@keyframes spinner{
+    from{
+        left:0;
+        transition:all ease 1s;
+        
+        
+
+    }
+    to{
+        left:100%;
+        rotate: 360deg;
+        transition: all ease 2s;
+                
+
+
+    }
+
+
+}
