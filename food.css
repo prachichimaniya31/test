@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+      
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    
+}
+#main #nav{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+}
+#nav h1{
+    font-size: 80px;
+    color: aliceblue;
+    margin-left: 12%;
+}
+#main #page{
+    height: 100%;
+    width: 60%;
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#page #nav{
+    height: 10%;
+    width: 100%;
+    background-color: burlywood;
+}
+#nav button{
+    height:30px;
+    width: 80px;
+    background-color: green;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+#nav #navleft{
+    height:50%;
+    width: 40%;
+    background-color: aqua;
+    margin-left: 40%;
+
+}
+
+#main #page2{
+    height: 100%;
+    width: 38%;
+    background-color: aliceblue;
+    margin-left: 61.5%;
+    margin-top: -53%;
+}
